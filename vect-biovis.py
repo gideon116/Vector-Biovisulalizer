@@ -26,7 +26,7 @@ def open_image(resolution, imm):
 
     return fast_x, fast_y, fast_z
 
-x, y, z = open_image(200, Image.open("/Users/gideon/Downloads/Work/AICS-13-part12/2017_06_28_lamin/AICS-13/AICS-13_1256.ome_struct_segmentation.tiff"))
+x, y, z = open_image(200, Image.open("./AICS-13-part12/2017_06_28_lamin/AICS-13/AICS-13_1256.ome_struct_segmentation.tiff"))
 x=np.asarray(x)
 y=np.asarray(y)
 z=np.asarray(z)
